@@ -1,0 +1,47 @@
+.colaborador{
+    width: 280px;
+    margin-bottom: 24px;
+    position: relative;
+}
+.colaborador .encabezado{
+    background-color: rgb(239, 115, 0);
+    border-radius:  10px 10px 0 0 ;
+}
+.colaborador img {
+    width: 180px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow:  1px 1px 15px rgb(255, 255, 255);
+    bottom: -50px;
+}
+.colaborador .info {
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  5px 5px 15px black;
+    border: 0 0 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    min-height: 100px;
+    font-family: monospace;
+}
+.colaborador .info h5{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding:  0 24px;
+    font-weight: 400;
+    margin: 0;
+
+}
+.colaborador .info h4{
+    color: rgb(0, 0, 0);
+}
+.eliminar{
+    position: absolute;
+    right: 5px;
+    top:4px;
+    text-shadow: 1px 1px 15px white(0, 0, 0);
+}
+.eliminar:hover{
+    text-shadow: 1px 1px 15px black;
+    transform: scale(1.1, 1.1);
+}

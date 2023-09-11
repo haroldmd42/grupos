@@ -1,0 +1,28 @@
+.campo{
+    margin: 24px 0;
+}
+
+.campo label{
+    font-size: 18px;
+    font-weight: 10;
+    display: block;
+}
+.campo input{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgba(255, 136, 0, 0.515);
+    border: none;
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-family:'Courier New', Courier, monospace;
+    box-shadow: 5px 5px 10px rgb(0, 4, 255);
+    outline-color: rgb(226, 128, 43);
+    font-size: 16px;
+}
+.campo input:hover{
+    transform: scale(1.005);
+}
+.campo-color input{
+    height: 40px;
+    padding: 5px 20px;
+}

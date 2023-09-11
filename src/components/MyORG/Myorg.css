@@ -1,0 +1,43 @@
+.orgSection{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.tittle{
+    
+    margin-top: 10px;
+    color: black;
+    font-size: 35px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid rgb(255, 213, 0);
+    
+}
+
+.orgSection img {
+    width: 30px;
+    position: absolute;
+    right:  20%;
+    cursor: pointer;}
+
+    .orgSection img:hover {
+        
+        transform: rotate(120deg);}
+
+
+    @media screen and (max-width: 720px) {
+        .orgSection img{
+            width: 20px;
+            position: absolute;
+            right: 10%;
+        }
+        .tittle{
+            color: black;
+            font-size: 18px;
+            padding-bottom: 10px;
+            border-bottom: 4px solid rgb(255, 213, 0);
+            
+        }
+        
+      }

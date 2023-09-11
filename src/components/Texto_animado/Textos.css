@@ -1,0 +1,57 @@
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #f15400;
+    --color-2: #ae3d3d;
+    --color-3: #ff0400;
+  }
+  
+  .title-word-2 {
+    --color-1: #f15400;
+    --color-2: #ae3d3d;
+    --color-3: #ff0400;
+  }
+  
+  .title-word-3 {
+    --color-1: #f15400;
+    --color-2: #ae3d3d;
+    --color-3: #ff0400;
+  }
+  
+  .title-word-4 {
+    --color-1: #f15400;
+    --color-2: #ae3d3d;
+    --color-3: #ff0400;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .container {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(221, 255, 255, 0.701);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px blue;
+  }
+  
+  .title {
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
